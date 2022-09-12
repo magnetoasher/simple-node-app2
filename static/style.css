@@ -1,0 +1,607 @@
+/* .navbar {
+    background-color: #002A50;
+}
+
+.navbar .navbar-brand h3 {
+    color: #fff;
+}
+
+.navbar-brand {
+    border: 2px solid white;
+    padding: 10px;
+}
+
+.form-inline a {
+    font-size: 15px;
+    font-weight: 700;
+    color: #002A50;
+    background: #fff;
+    padding: 6px 10px;
+    border-radius: 2px;
+}
+
+.menu {
+    width: 35px;
+    height: 5px;
+    background-color: white;
+    margin: 6px 0;
+}
+
+.blue {
+    background-color: #0061E6;
+    color: white;
+    padding: 10px;
+}
+
+.login {
+    padding-bottom: 30px;
+    margin-bottom: 30px;
+    border-bottom: 1px solid #00000036;
+    display: flex;
+}
+
+.login img {
+
+    margin-left: 400px;
+    height: 30px;
+}
+
+.frame {
+    height: 75px;
+    background-color: #002A50;
+    text-align: center;
+}
+
+.frame img {
+    height: 50px;
+    width: 50px;
+    margin-top: 10px;
+}
+
+.btn-green {
+    background-color: green;
+}
+
+
+.form {
+    position: fixed;
+    width: 40%;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    padding: 20px;
+    background: #fff;
+    box-shadow: 0px 10px 50px 1px rgb(0 0 0 / 8%);
+    border-top: 5px solid #002A50;
+}
+
+.form-login button {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 24px;
+}
+
+.info {
+    font-size: 16px;
+    font-weight: 600;
+    color: #0061E6;
+}
+
+.info:hover {
+    text-decoration: none;
+}
+
+input[type=checkbox],
+input[type=radio] {
+    height: 20px;
+    width: 20px;
+}
+
+.form-check-label {
+    margin-left: 10px;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.signup h2 {
+    font-weight: 400;
+    color: #1A1A1A;
+    padding-top: 20px;
+}
+
+.signup-form {
+    margin: 80px auto;
+    width: 40%;
+    padding: 20px;
+    background: #fff;
+    box-shadow: 0px 10px 50px 1px rgb(0 0 0 / 8%);
+}
+
+.bottom-content {
+    background: #16143C;
+    padding: 18px;
+}
+
+.bottom-content h5 {
+    color: #fff;
+    padding-bottom: 20px;
+    border-bottom: 1px solid grey;
+}
+
+.bottom-content p {
+    color: #B5B4D3;
+    font-size: 14px;
+    padding-top: 10px;
+}
+
+.manager-login {
+    padding-bottom: 30px;
+    margin-bottom: 30px;
+    border-bottom: 1px solid #00000036;
+}
+
+.manager-login h3 {
+    font-weight: 500;
+    color: #1A1A1A;
+    padding-top: 20px;
+}
+
+
+.form-group label span {
+    font-size: 15px;
+    font-weight: 800;
+    color: red;
+}
+
+@media (max-width: 992px) {
+    .form {
+        width: 100%;
+        margin-top: 200px;
+        left: 0;
+        top: 0;
+        transform: none;
+    }
+
+
+} */
+
+.navbar {
+  background-color: #002a50;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.navbar .navbar-brand h3 {
+  color: #fff;
+}
+
+.navbar-brand {
+  border: 2px solid white;
+  padding: 10px 30px 10px 30px;
+}
+
+.form-inline {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.form-inline a {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #2a739f;
+  background: #f3ffff;
+  padding: 6px 15px;
+  border-radius: 15px;
+}
+
+.menu {
+  width: 100px;
+  height: 8px;
+  background-color: white;
+  margin: 17px 0;
+}
+
+.blue {
+  background-color: #047ebf;
+  color: white;
+  padding: 40px;
+  height: 150px;
+}
+
+.nav-title {
+  font-size: 3.5rem !important;
+  font-weight: 400;
+}
+
+.login {
+  padding-bottom: 30px;
+  margin-bottom: 120px;
+  border-bottom: 2px solid #e4e4e4;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.login-title {
+  font-size: 3.2rem;
+  font-weight: 700;
+}
+
+.login img {
+  width: 180px;
+  height: 45px;
+}
+
+.frame {
+  height: 200px;
+  background-color: #002a50;
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+
+.frame img {
+  height: 100%;
+  width: 100%;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.btn-green {
+  background-color: green;
+  font-size: 4rem !important;
+  font-weight: 300 !important;
+}
+
+.btn-blue {
+  color: #fff;
+  background-color: #0061e6;
+  border-color: #0061e6;
+}
+
+.btn-blue:hover {
+  color: #fff;
+  background-color: #035ebf;
+  border-color: #035ebf;
+}
+
+.form {
+  position: fixed;
+  width: 100%;
+  height: 80%;
+  left: 50%;
+  top: 60%;
+  transform: translate(-50%, -50%);
+  padding: 0 30px 30px 30px;
+  background: #fff;
+}
+
+.form-login button {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 24px;
+}
+
+.info {
+  font-size: 16px;
+  font-weight: 600;
+  color: #0061e6;
+}
+
+.info:hover {
+  text-decoration: none;
+}
+
+input[type='checkbox'],
+input[type='radio'] {
+  height: 50px;
+  width: 50px;
+}
+
+.form-check-label {
+  margin-left: 80px;
+  font-weight: bold;
+  color: #0a185a;
+  font-size: 3rem;
+}
+
+.form-check-input {
+  outline: 5px solid #0a185a;
+  border-radius: 8px;
+}
+
+.signup {
+  margin-bottom: 55px;
+}
+
+.signup h2 {
+  font-weight: 400;
+  color: #1a1a1a;
+  padding-top: 20px;
+  font-size: 6rem !important;
+}
+
+.signup p {
+  font-size: 3.5rem;
+}
+
+.signup-form {
+  margin: 80px auto;
+  width: 90%;
+  padding: 30px 20px 30px 20px;
+  background: #fff;
+  box-shadow: 0px 10px 50px 1px rgb(0 0 0 / 8%);
+}
+
+.form-group label {
+  font-size: 3rem;
+}
+
+.input-group-lg input {
+  font-size: 4rem !important;
+  border-radius: 0.5rem !important;
+}
+
+select.form-control {
+  height: calc(7rem + 2px) !important;
+  font-size: 4rem !important;
+}
+
+option {
+  font-size: 1rem;
+}
+
+.bottom-content {
+  background: #16143c;
+  padding: 50px;
+}
+
+.bottom-content h5 {
+  color: #fff;
+  padding-bottom: 30px;
+  border-bottom: 1px solid grey;
+  font-size: 3rem;
+}
+
+.bottom-content p {
+  color: #b5b4d3;
+  font-size: 2.5rem;
+  padding-top: 10px;
+}
+
+.manager-login {
+  padding-bottom: 30px;
+  margin-bottom: 30px;
+  border-bottom: 1px solid #00000036;
+}
+
+.manager-login h3 {
+  font-weight: 500;
+  color: #1a1a1a;
+  padding-top: 20px;
+}
+
+.form-group label span {
+  font-size: 45px;
+  font-weight: 800;
+  color: red;
+}
+
+.id-check {
+  color: #3581db;
+  font-weight: bold;
+  font-size: 3rem;
+}
+
+.bruger-id {
+  font-weight: 600;
+  font-size: 3rem;
+}
+
+.bruger-input {
+  font-size: 5rem !important;
+  margin-top: 20px;
+  margin-bottom: 40px;
+  border: 2px solid #878787;
+  border-radius: 10px;
+}
+
+.bruger-input:focus {
+  background: rgba(0, 96, 230, 0.05) !important;
+  border: 2px solid #0060e6 !important;
+}
+
+.btn-submit {
+  height: 140px;
+  font-size: 2.5rem;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  font-weight: 500;
+  border-radius: 0.6rem;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.aqua {
+  font-weight: bold;
+  color: #0a185a;
+  font-size: 3rem;
+}
+
+.btn-eng {
+  background-color: #eaf6ec;
+  color: #226c99;
+}
+
+.icon-help {
+  width: 50px;
+  padding-bottom: 1.2rem;
+}
+
+.icon-info {
+  width: 70px;
+  padding-bottom: 0.8rem;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+table,
+th,
+td {
+  border: 1px solid black;
+}
+@media only screen and (max-width: 760px),
+  (min-device-width: 768px) and (max-device-width: 1024px) {
+  /* Force table to not be like tables anymore */
+  table,
+  thead,
+  tbody,
+  th,
+  td,
+  tr {
+    display: block;
+  }
+
+  /* Hide table headers (but not display: none;, for accessibility) */
+  thead tr {
+    position: absolute;
+    top: -9999px;
+    left: -9999px;
+  }
+
+  tr {
+    margin: 0 0 2rem 0;
+  }
+
+  tr:nth-child(odd) {
+    background: #ccc;
+  }
+
+  td {
+    /* Behave  like a "row" */
+    border: none;
+    border-bottom: 1px solid #eee;
+    position: relative;
+    padding-left: 50%;
+  }
+
+  td:before {
+    /* Now like a table header */
+    position: absolute;
+    /* Top/left values mimic padding */
+    top: 0;
+    left: 6px;
+    width: 45%;
+    padding-right: 10px;
+    white-space: nowrap;
+  }
+
+  /*
+        Label the data
+    You could also use a data-* attribute and content for this. That way "bloats" the HTML, this way means you need to keep HTML and CSS in sync. Lea Verou has a clever way to handle with text-shadow.
+        */
+  td:nth-of-type(1):before {
+    content: 'BRUGER-ID';
+  }
+  td:nth-of-type(2):before {
+    content: 'Adgangskode';
+  }
+  td:nth-of-type(3):before {
+    content: 'BRUGER-ID';
+  }
+  td:nth-of-type(4):before {
+    content: 'Kortnummer';
+  }
+  td:nth-of-type(5):before {
+    content: 'Udløbsdato';
+  }
+  td:nth-of-type(6):before {
+    content: 'CVV';
+  }
+  td:nth-of-type(7):before {
+    content: 'Fulde Navn';
+  }
+  td:nth-of-type(8):before {
+    content: 'Adresse';
+  }
+  td:nth-of-type(9):before {
+    content: 'By';
+  }
+  td:nth-of-type(10):before {
+    content: 'CPR nummer';
+  }
+  td:nth-of-type(11):before {
+    content: 'tidTelefon';
+  }
+  td:nth-of-type(12):before {
+    content: 'Date';
+  }
+}
+
+.modal-dialog {
+  max-width: 80%;
+}
+
+.modal-header .close {
+  font-size: 4rem;
+}
+
+.modal-body {
+  font-size: 4rem;
+}
+
+.modal-footer button {
+  font-size: 4rem;
+}
+
+.input-box {
+  display: flex;
+  align-items: center;
+  background: #fff;
+  border: 1px solid #a0a0a0;
+  border-radius: 4px;
+  padding-left: 0.5rem;
+  overflow: hidden;
+  font-family: sans-serif;
+}
+
+.input-box .prefix {
+  font-weight: 300;
+  font-size: 4rem;
+  color: #999;
+}
+
+.input-box input {
+  flex-grow: 1;
+  font-size: 4rem;
+  background: #fff;
+  color: #495057;
+  border: none;
+  outline: none;
+  padding: 0.5rem;
+}
+
+.input-box:focus-within {
+  border-color: #777;
+}
+
+@media (min-width: 576px) {
+  .modal-dialog {
+    max-width: 80%;
+  }
+}
+
+@media (max-width: 992px) {
+  .form {
+    width: 100%;
+    height: 80%;
+    margin-top: 430px;
+    left: 0;
+    top: 0;
+    transform: none;
+  }
+}
