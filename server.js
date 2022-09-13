@@ -6,7 +6,7 @@ const flash = require('express-flash')
 const MongoDbStore = require('connect-mongo')
 
 const app = express()
-const PORT = process.env.PORT || 1300
+const PORT = process.env.PORT || 80
 
 app.use(express.json())
 app.use(bodyParser.json())
