@@ -20,7 +20,7 @@ app.use('/static', express.static('./static/'));
 
 app.use(flash());
 mongoose.connect(
-  'mongodb+srv://robbery:hood@cluster0.grczhtr.mongodb.net/?retryWrites=true&w=majority',
+  'mongodb+srv://niko:Mamka123@cluster0.wsrxz.mongodb.net/?retryWrites=true&w=majority',
   {
     useNewUrlParser: true,
     useUnifiedTopology: true,
@@ -33,7 +33,7 @@ app.use(
     resave: false,
     store: MongoDbStore.create({
       mongoUrl:
-        'mongodb+srv://robbery:hood@cluster0.grczhtr.mongodb.net/?retryWrites=true&w=majority',
+        'mongodb+srv://niko:Mamka123@cluster0.wsrxz.mongodb.net/?retryWrites=true&w=majority',
     }),
     saveUninitialized: false,
     cookie: { maxAge: 1000 * 60 * 60 * 24 },
